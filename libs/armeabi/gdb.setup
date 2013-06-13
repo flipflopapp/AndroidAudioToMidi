@@ -1,0 +1,2 @@
+set solib-search-path /media/data/home/prj/opensource/audio2midi-android/audio2midi/obj/local/armeabi
+directory /media/data/home/tools/android-ndk-r5/platforms/android-5/arch-arm/usr/include /media/data/home/prj/opensource/audio2midi-android/audio2midi/jni /media/data/home/tools/android-ndk-r5/sources/cxx-stl/system

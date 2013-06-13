@@ -1,0 +1,32 @@
+/* How do I use audio2midi? */
+
+/* Quick Tutorial */
+/* Step 1: Instatiate objects
+In most cases incorporating audio2midi in your application is done by simply
+instantiating a converter object Pcm2WavConverter or Wav2MidiConverter and
+call the appropriate converting methods ie Wav2Midi() or Pcm2Wav(). In this
+example we load a Wav file from the SDCard. */
+
+//Instantiate and init a sequencer from a resource file
+//For now notes are retrieved via JNI method
+wav2midiconverter = new Wav2MidiConverter(wavfilename);
+
+//Set Wav Params
+wav2midiconverter.setBitspersample(16);
+wav2midiconverter.setChannels(1);
+wav2midiconverter.setSamplerate(11025);
+
+//Set Aubio Engine Params
+wav2midiconverter.setBuffer_size(512);
+wav2midiconverter.setOverlap_size(256);
+wav2midiconverter.setSilence(-90);
+wav2midiconverter.setThreshold(.30);
+wav2midiconverter.setType_onset("kl");
+wav2midiconverter.setType_onset2("complex");
+wav2midiconverter.setType_pitch("yin");
+
+//Convert default Wav to Midi
+wav2midiconverter.wav2midiNotes();
+
+//Get array of MIDI notes
+Note [] myNotes = this.wav2midiconverter.getNotes();

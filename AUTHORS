@@ -1,0 +1,9 @@
+Authors of ATM:
+
+Max Kastanas <max2idea@users.sf.net>
+Naval Saini <navalnovel@gmail.com>
+
+ATM is making use of Android ports of aubio, libfftw, libsndfile,
+and libsamplerate. For the respective authors see file THANKS.
+
+================================================================================

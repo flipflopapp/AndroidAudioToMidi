@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="synthInstrumentArray">
+        <item>Piano</item>
+        <item>Saxophone</item>
+        <item>Violin</item>
+        <item>Steel Drums</item>
+
+    </string-array>
+
+    <string-array name="synthInstrumentValues">
+        <item>0</item>
+        <item>65</item>
+        <item>40</item>
+        <item>114</item>
+    </string-array>
+
+    <string-array name="recFormatArray">
+        <item>Default</item>
+        <item>8 Bit</item>
+        <item>16 Bit</item>
+
+    </string-array>
+
+    <string-array name="recFormatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="recFreqArray">
+        <item>Default</item>
+        <item>8000 Hz</item>
+        <item>11025 Hz</item>
+        <item>22050 Hz</item>
+        <item>44100 Hz</item>
+
+    </string-array>
+
+    <string-array name="recFreqValues">
+        <item>11025</item>
+        <item>8000</item>
+        <item>11025</item>
+        <item>22050</item>
+        <item>44100</item>
+    </string-array>
+
+    <string-array name="recChanArray">
+        <item>Default</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+
+    </string-array>
+
+    <string-array name="recChanValues">
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pitchTypeArray">
+        <item>mcomb</item>
+        <item>yinfft</item>
+        <item>yin</item>
+        <item>schmitt</item>
+        <item>fcomb</item>
+    </string-array>
+
+    <string-array name="pitchTypeValues">
+        <item>mcomb</item>
+        <item>yinfft</item>
+        <item>yin</item>
+        <item>schmitt</item>
+        <item>fcomb</item>
+    </string-array>
+
+    <string-array name="onsetTypeArray">
+        <item>energy</item>
+        <item>specdiff</item>
+        <item>hfc</item>
+        <item>complexdomain</item>
+        <item>complex</item>
+        <item>phase</item>
+        <item>mkl</item>
+        <item>kl</item>
+    </string-array>
+
+    <string-array name="onsetTypeValues">
+        <item>energy</item>
+        <item>specdiff</item>
+        <item>hfc</item>
+        <item>complexdomain</item>
+        <item>complex</item>
+        <item>phase</item>
+        <item>mkl</item>
+        <item>kl</item>
+    </string-array>
+
+    <string-array name="onsetType2Array">
+        <item>None</item>
+        <item>energy</item>
+        <item>specdiff</item>
+        <item>hfc</item>
+        <item>complexdomain</item>
+        <item>complex</item>
+        <item>phase</item>
+        <item>mkl</item>
+        <item>kl</item>
+    </string-array>
+
+    <string-array name="onsetType2Values">
+        <item></item>
+        <item>energy</item>
+        <item>specdiff</item>
+        <item>hfc</item>
+        <item>complexdomain</item>
+        <item>complex</item>
+        <item>phase</item>
+        <item>mkl</item>
+        <item>kl</item>
+    </string-array>
+
+<string-array name="thresholdArray">
+        <item>0.10</item>
+        <item>0.20</item>
+        <item>0.30</item>
+        <item>0.40</item>
+        <item>0.50</item>
+        <item>0.60</item>
+        <item>0.70</item>
+        <item>0.80</item>
+        <item>0.90</item>
+    </string-array>
+
+    <string-array name="thresholdValues">
+        <item>0.10</item>
+        <item>0.20</item>
+        <item>0.30</item>
+        <item>0.40</item>
+        <item>0.50</item>
+        <item>0.60</item>
+        <item>0.70</item>
+        <item>0.80</item>
+        <item>0.90</item>
+    </string-array>
+
+    <string-array name="silenceArray">
+        <item>-10.0</item>
+        <item>-20.0</item>
+        <item>-30.0</item>
+        <item>-40.0</item>
+        <item>-50.0</item>
+        <item>-60.0</item>
+        <item>-70.0</item>
+        <item>-80.0</item>
+        <item>-90.0</item>
+    </string-array>
+
+    <string-array name="silenceValues">
+        <item>-10.0</item>
+        <item>-20.0</item>
+        <item>-30.0</item>
+        <item>-40.0</item>
+        <item>-50.0</item>
+        <item>-60.0</item>
+        <item>-70.0</item>
+        <item>-80.0</item>
+        <item>-90.0</item>
+    </string-array>
+
+<string-array name="bufferSizeArray">
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>16384</item>
+    </string-array>
+
+    <string-array name="bufferSizeValues">
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>16384</item>
+    </string-array>
+
+    <string-array name="overlapSizeArray">
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>16384</item>
+    </string-array>
+
+    <string-array name="overlapSizeValues">
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>16384</item>
+    </string-array>
+
+</resources>

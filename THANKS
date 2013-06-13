@@ -1,0 +1,53 @@
+AUBIO
+
+This code has been written by Paul Brossier (piem@altern.org). It is based on
+recent techniques developed at Queen Mary College, University of London. See
+file THANKS. 
+
+The authors of some of the original algorithms were Juan Pablo Bello (multi
+comb pitch detection and onsets), Chris Duxbury (onsets), Samer Abdallah (peak
+picking), Alain de Cheveigne (pitchyin).  Details to the relevant articles are
+provided in each file.
+
+The midi files have been borrowed from Fluidsynth, written by Peter Hanappe.
+
+Also many thanks to Miguel Ramirez and Nicolas Wack for their bug fixing.
+
+================================================================================
+FFTW
+
+Authors of FFTW (reachable at fftw@fftw.org):
+
+Matteo Frigo <athena@fftw.org>
+Stevenj G. Johnson <stevenj@alum.mit.edu>
+
+Stefan Kral <skral@fftw.org> wrote genfft-k7/*.ml*, which was
+added in fftw-3.0 and removed in fftw-3.2.
+
+Support for the Cell Broadband Engine was graciously donated
+by the IBM Austin Research Lab.
+
+Support for MIPS64 paired-single SIMD instructions was graciously
+donated by CodeSourcery, Inc.
+
+
+================================================================================
+libsndfile
+The main author of libsndfile is Erik de Castro Lopo <erikd@mega-nerd.com>
+apart from code in the following directories:
+
+ - src/GSM610 : Written by Jutta Degener <jutta@cs.tu-berlin.de> and Carsten
+   Bormann <cabo@cs.tu-berlin.de>. They should not be contacted in relation to
+   libsndfile or the GSM 6.10 code that is part of libsndfile. Their original
+   code can be found at:
+
+       http://kbs.cs.tu-berlin.de/~jutta/toast.html
+
+ - src/G72x : Released by Sun Microsystems, Inc. to the public domain. Minor
+   modifications were required to integrate these files into libsndfile. The
+   changes are listed in src/G72x/ChangeLog.
+
+================================================================================
+libsamplerate
+Erik de Castro Lopo <erikd@mega-nerd.com>
+

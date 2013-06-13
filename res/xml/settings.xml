@@ -1,0 +1,103 @@
+<?xml  version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="ATM Settings">
+        <ListPreference
+            android:title="Format"
+            android:summary="Bits per sample"
+            android:key="recFormatPref"
+            android:defaultValue="0"
+            android:entries="@array/recFormatArray"
+            android:entryValues="@array/recFormatValues" />
+        <ListPreference
+            android:title="Frequency"
+            android:summary="Samplerate"
+            android:key="recFreqPref"
+            android:defaultValue="11025"
+            android:entries="@array/recFreqArray"
+            android:entryValues="@array/recFreqValues" />
+        <ListPreference
+            android:title="Channels"
+            android:summary="Channels"
+            android:key="recChanPref"
+            android:defaultValue="1"
+            android:entries="@array/recChanArray"
+            android:entryValues="@array/recChanValues" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Aubio Settings">
+
+
+        <ListPreference
+            android:title="Pitch Type"
+            android:summary="Pitch Type"
+            android:key="pitchTypePref"
+            android:defaultValue="yinfft"
+            android:entries="@array/pitchTypeArray"
+            android:entryValues="@array/pitchTypeValues" />
+        <ListPreference
+            android:title="Onset Type"
+            android:summary="Onset Type"
+            android:key="onsetTypePref"
+            android:defaultValue="kl"
+            android:entries="@array/onsetTypeArray"
+            android:entryValues="@array/onsetTypeValues" />
+        <ListPreference
+            android:title="Onset Type 2"
+            android:summary="Onset Type 2"
+            android:key="onsetType2Pref"
+            android:defaultValue="complex"
+            android:entries="@array/onsetType2Array"
+            android:entryValues="@array/onsetType2Values" />
+        <CheckBoxPreference
+            android:title="User Averaging?"
+            android:defaultValue="true"
+            android:summary="Use averaging"
+            android:key="useAvgPref" />
+        <ListPreference
+            android:title="Threshold"
+            android:summary="Threshold"
+            android:key="thresholdPref"
+            android:defaultValue="0.30"
+            android:entries="@array/thresholdArray"
+            android:entryValues="@array/thresholdValues" />
+        <ListPreference
+            android:title="Silence"
+            android:summary="Silence"
+            android:key="silencePref"
+            android:defaultValue="-90.0"
+            android:entries="@array/silenceArray"
+            android:entryValues="@array/silenceValues" />
+        <ListPreference
+            android:title="Buffer size"
+            android:summary="Buffer size"
+            android:key="bufferSizePref"
+            android:defaultValue="128"
+            android:entries="@array/bufferSizeArray"
+            android:entryValues="@array/bufferSizeValues" />
+        <ListPreference
+            android:title="Overlap size"
+            android:summary="Overlap size"
+            android:key="overlapSizePref"
+            android:defaultValue="256"
+            android:entries="@array/overlapSizeArray"
+            android:entryValues="@array/overlapSizeValues" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="MIDI Synthesis ">
+        <CheckBoxPreference
+            android:title="Show Note Letters"
+            android:defaultValue="true"
+            android:summary="Show Note Letters"
+            android:key="showNoteLettersOnPref" />
+        <ListPreference
+            android:title="Synth Instrument"
+            android:summary="Synth Instrument"
+            android:key="synthInstrumentPref"
+            android:defaultValue="65"
+            android:entries="@array/synthInstrumentArray"
+            android:entryValues="@array/synthInstrumentValues" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
